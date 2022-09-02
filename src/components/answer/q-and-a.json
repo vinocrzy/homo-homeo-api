@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_answer_q_and_as",
+  "info": {
+    "displayName": "Q & A",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::question.question"
+    },
+    "ans_text": {
+      "type": "text"
+    },
+    "ans_audio": {
+      "allowedTypes": [
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ans_video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
