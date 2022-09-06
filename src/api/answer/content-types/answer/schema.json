@@ -4,7 +4,8 @@
   "info": {
     "singularName": "answer",
     "pluralName": "answers",
-    "displayName": "Answer"
+    "displayName": "Answer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,13 +16,21 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::patient.patient",
-      "inversedBy": "answer"
+      "mappedBy": "answer"
     },
     "answers": {
       "type": "dynamiczone",
       "components": [
         "answer.q-and-a"
       ]
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "Tamil",
+        "English"
+      ],
+      "default": "Tamil"
     }
   }
 }
