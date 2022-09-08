@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     connection: {
       host: env('DATABASE_HOST', 'localhost'),
       port: env.int('DATABASE_PORT', 3306),
-      database: env('DATABASE_NAME', 'fast_homo_homeo'),
-      user: env('DATABASE_USERNAME', 'fast_homo_homeo'),
-      password: env('DATABASE_PASSWORD', '*pND1zymsb^LgGP2'),
+      database: env('DATABASE_NAME', 'home_homeo'),
+      user: env('DATABASE_USERNAME', 'home_homeo'),
+      password: env('DATABASE_PASSWORD', 'JfZ3cBaRmRtZyBRD'),
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
