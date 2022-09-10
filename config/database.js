@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     connection: {
       host: env('DATABASE_HOST', 'localhost'),
       port: env.int('DATABASE_PORT', 3306),
-      database: env('DATABASE_NAME', 'holi_api'),
-      user: env('DATABASE_USERNAME', 'holi_api'),
-      password: env('DATABASE_PASSWORD', '7A%yxoGrcgay%3HD'),
+      database: env('DATABASE_NAME', 'holi_holisticdb'),
+      user: env('DATABASE_USERNAME', 'holi_holisticdb'),
+      password: env('DATABASE_PASSWORD', '+koKnD68Dlhkd+vI'),
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
