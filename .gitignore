@@ -118,4 +118,5 @@ build
 # Yarn
 ############################
 yarn.lock
+package-lock.json
 .user.ini
