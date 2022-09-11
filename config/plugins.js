@@ -1,3 +1,4 @@
+
 module.exports = ({ env }) => ({
     // ...
     upload: {
@@ -7,7 +8,6 @@ module.exports = ({ env }) => ({
                 accessKeyId: env('AWS_ACCESS_KEY_ID'),
                 secretAccessKey: env('AWS_ACCESS_SECRET'),
                 region: env('AWS_REGION'),
-                endpoint: env('AWS_ENDPOINT'),
                 params: {
                     Bucket: env('AWS_BUCKET'),
                 },
