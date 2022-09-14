@@ -12,6 +12,12 @@
 //   },
 // });
 
+// CREATE USER 'homo_homeo'@'localhost' IDENTIFIED BY 'P@s$w0rd123!';
+// CREATE DATABASE homo_homeo;
+// GRANT PRIVILEGE ON homo_homeo.table TO 'homo_homeo'@'localhost';
+
+// GRANT ALL PRIVILEGES ON *.* TO 'homo_homeo'@'localhost' IDENTIFIED BY 'P@s$w0rd123!';
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
@@ -19,8 +25,8 @@ module.exports = ({ env }) => ({
       host: env('DATABASE_HOST', 'localhost'),
       port: env.int('DATABASE_PORT', 3306),
       database: env('DATABASE_NAME', 'homo_homeo'),
-      user: env('DATABASE_USERNAME', 'root'),
-      password: env('DATABASE_PASSWORD', ''),
+      user: env('DATABASE_USERNAME', 'homo_homeo'),
+      password: env('DATABASE_PASSWORD', 'P@s$w0rd123!'),
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
