@@ -35,6 +35,7 @@ module.exports = [
             'blob:',
             'dl.airtable.com',
             'ap-south-1.linodeobjects.com',
+            'home-homeo.ap-south-1.linodeobjects.com'
           ],
           'media-src': [
             "'self'",
@@ -42,6 +43,7 @@ module.exports = [
             'blob:',
             'dl.airtable.com',
             'ap-south-1.linodeobjects.com',
+            'home-homeo.ap-south-1.linodeobjects.com'
           ],
           upgradeInsecureRequests: null,
         },
