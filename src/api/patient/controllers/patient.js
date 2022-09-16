@@ -13,29 +13,30 @@ module.exports = createCoreController('api::patient.patient', ({ strapi }) => ({
         const { id } = ctx.params;
         const { query } = ctx;
 
-        const entity = await strapi.entityService.findOne('api::patient.patient', id, {
-            ...query,
+        const answers = await strapi.db.query('api::answer.answer').findOne({
+            where: { patient: id },
             populate: {
-                answer: {
+                answers: {
                     populate: {
-                        answers: {
+                        question: {
                             populate: {
-                                question: {
-                                    populate: {
-                                        video: true
-                                    }
-                                },
-                                ans_text: true,
-                                ans_audio: true,
-                                ans_video: true,
-
+                                video: true
                             }
                         },
-                    },
-                }
+                        ans_text: true,
+                        ans_audio: true,
+                        ans_video: true,
+
+                    }
+                },
+                patient: true
             },
         });
-        const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
+
+        const entity = await strapi.entityService.findOne('api::patient.patient', id, {
+            ...query
+        });
+        const sanitizedEntity = await this.sanitizeOutput({ ...entity, answers }, ctx);
 
         return this.transformResponse(sanitizedEntity);
 

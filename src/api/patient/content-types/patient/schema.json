@@ -54,12 +54,6 @@
         "other"
       ]
     },
-    "answer": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::answer.answer",
-      "inversedBy": "patient"
-    },
     "language": {
       "type": "enumeration",
       "enum": [

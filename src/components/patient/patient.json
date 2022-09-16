@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_patient_patients",
+  "info": {
+    "displayName": "patient"
+  },
+  "options": {},
+  "attributes": {
+    "patient_id": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
