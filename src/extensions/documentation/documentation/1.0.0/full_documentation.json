@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-16T03:50:52.405Z"
+    "x-generation-date": "2022-09-18T08:52:02.508Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1131,6 +1131,9 @@
                         }
                       },
                       "video_url": {
+                        "type": "string"
+                      },
+                      "thumbnail": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -5761,6 +5764,9 @@
           "video_url": {
             "type": "string"
           },
+          "thumbnail": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -5794,6 +5800,9 @@
                 "example": "string or id"
               },
               "video_url": {
+                "type": "string"
+              },
+              "thumbnail": {
                 "type": "string"
               },
               "locale": {
@@ -6437,6 +6446,9 @@
             }
           },
           "video_url": {
+            "type": "string"
+          },
+          "thumbnail": {
             "type": "string"
           },
           "createdAt": {
@@ -7387,6 +7399,9 @@
                 }
               },
               "video_url": {
+                "type": "string"
+              },
+              "thumbnail": {
                 "type": "string"
               },
               "createdAt": {
@@ -8341,6 +8356,9 @@
                 }
               },
               "video_url": {
+                "type": "string"
+              },
+              "thumbnail": {
                 "type": "string"
               },
               "createdAt": {
@@ -9328,6 +9346,9 @@
               "video_url": {
                 "type": "string"
               },
+              "thumbnail": {
+                "type": "string"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -10280,6 +10301,9 @@
                 }
               },
               "video_url": {
+                "type": "string"
+              },
+              "thumbnail": {
                 "type": "string"
               },
               "createdAt": {

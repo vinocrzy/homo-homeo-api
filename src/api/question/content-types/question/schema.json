@@ -52,6 +52,14 @@
         }
       },
       "type": "string"
+    },
+    "thumbnail": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
