@@ -68,6 +68,10 @@
       "relation": "oneToMany",
       "target": "api::patient.patient",
       "mappedBy": "assigned_dr"
+    },
+    "isPatient": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
