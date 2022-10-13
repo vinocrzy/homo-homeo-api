@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-18T08:52:02.508Z"
+    "x-generation-date": "2022-10-13T12:04:53.438Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2706,7 +2706,8 @@
         "properties": {
           "data": {
             "required": [
-              "email"
+              "email",
+              "user"
             ],
             "type": "object",
             "properties": {
@@ -2762,6 +2763,9 @@
                   "Tamil",
                   "English"
                 ]
+              },
+              "user": {
+                "type": "string"
               }
             }
           }
@@ -3326,6 +3330,9 @@
                                             "English"
                                           ]
                                         },
+                                        "user": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3378,6 +3385,9 @@
                                 }
                               }
                             }
+                          },
+                          "isPatient": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -3448,6 +3458,9 @@
                   "Tamil",
                   "English"
                 ]
+              },
+              "user": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -4058,6 +4071,9 @@
                                             "English"
                                           ]
                                         },
+                                        "user": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -4110,6 +4126,9 @@
                                 }
                               }
                             }
+                          },
+                          "isPatient": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -4180,6 +4199,9 @@
                   "Tamil",
                   "English"
                 ]
+              },
+              "user": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -4823,6 +4845,9 @@
                                             "English"
                                           ]
                                         },
+                                        "user": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -4875,6 +4900,9 @@
                                 }
                               }
                             }
+                          },
+                          "isPatient": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -4945,6 +4973,9 @@
                   "Tamil",
                   "English"
                 ]
+              },
+              "user": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -5555,6 +5586,9 @@
                                             "English"
                                           ]
                                         },
+                                        "user": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -5607,6 +5641,9 @@
                                 }
                               }
                             }
+                          },
+                          "isPatient": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -5677,6 +5714,9 @@
                   "Tamil",
                   "English"
                 ]
+              },
+              "user": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -16269,6 +16309,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -16321,6 +16364,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -16958,6 +17004,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -17010,6 +17059,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -17680,6 +17732,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -17732,6 +17787,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -18369,6 +18427,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -18421,6 +18482,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -18830,6 +18894,9 @@
                                                                         "English"
                                                                       ]
                                                                     },
+                                                                    "user": {
+                                                                      "type": "string"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -19133,6 +19200,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "isPatient": {
+                                                        "type": "boolean"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -19548,6 +19618,9 @@
                                                                         "English"
                                                                       ]
                                                                     },
+                                                                    "user": {
+                                                                      "type": "string"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -19851,6 +19924,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "isPatient": {
+                                                        "type": "boolean"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -20299,6 +20375,9 @@
                                                                         "English"
                                                                       ]
                                                                     },
+                                                                    "user": {
+                                                                      "type": "string"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -20602,6 +20681,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "isPatient": {
+                                                        "type": "boolean"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -21017,6 +21099,9 @@
                                                                         "English"
                                                                       ]
                                                                     },
+                                                                    "user": {
+                                                                      "type": "string"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -21321,6 +21406,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "isPatient": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -21607,6 +21695,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "isPatient": {
+                "type": "boolean"
               }
             }
           }
@@ -22124,6 +22215,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -22176,6 +22270,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -22293,6 +22390,9 @@
                     }
                   }
                 }
+              },
+              "isPatient": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -22852,6 +22952,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -22904,6 +23007,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -23021,6 +23127,9 @@
                     }
                   }
                 }
+              },
+              "isPatient": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -23613,6 +23722,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -23665,6 +23777,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -23782,6 +23897,9 @@
                     }
                   }
                 }
+              },
+              "isPatient": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -24341,6 +24459,9 @@
                                                           "English"
                                                         ]
                                                       },
+                                                      "user": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -24393,6 +24514,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "isPatient": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -24510,6 +24634,9 @@
                     }
                   }
                 }
+              },
+              "isPatient": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",

@@ -61,6 +61,10 @@
         "English"
       ],
       "default": "Tamil"
+    },
+    "user": {
+      "type": "uid",
+      "required": true
     }
   }
 }
