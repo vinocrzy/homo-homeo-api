@@ -5,5 +5,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS', ["hitfGTDSVSZe29EtkcXQCQ==", "MPsHT4JoXZR61MC+mqVNsg=="]),
   },
-  url: env('MY_HEROKU_URL'),
+  // url: env('MY_HEROKU_URL'),
 });
